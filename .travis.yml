@@ -5,7 +5,6 @@ arch:
 jdk:
   - openjdk8
   - openjdk11
-sudo: false
 install: ./installViaTravis.sh
 script: ./buildViaTravis.sh
 env:
